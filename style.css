@@ -104,8 +104,58 @@ section .Description {
         color: rgb(255, 204, 0);
     }
 
+    .star , .rate {
+        padding: 5px;
+        padding-left: 0px;
+        padding-right: 10px;
+        border-right: 2px solid rgb(255, 204, 0);
+        
+    }
+
+    .rate, .Watchlist {
+        padding-left: 5px;
+        color: rgb(198, 90, 182);
+        font-weight: bold;
+    }
+
     small {
         font-size: 15px;
+        
     }
+
+    .actors {
+        /* background-color: aliceblue; */
+        padding-top: 30px;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .actor-img {
+
+        padding-right: 30px;
+
+        flex-direction: column;
+        text-align: center;
+        
+        a img{
+
+
+            height: 125px;
+            width: 125px;
+            object-fit: cover;
+            clip-path: circle(50%);
+            margin-bottom: 7px;
+        }
+
+        .actor-name {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+
+
+
 }
 
