@@ -65,12 +65,13 @@ nav {
     
 }
 
-/* section */
+/* main */
 
 .main-img {
     margin: 50px 10px;
     justify-content: center;
     text-align: center;
+    
     /* background-color: blue; */
 
     img {
@@ -100,6 +101,7 @@ section .poster-img{
 section .Description {
     color: white;
 
+
     h4 {
         color: rgb(255, 204, 0);
     }
@@ -119,9 +121,19 @@ section .Description {
     }
 
     small {
-        font-size: 15px;
+        font-size: 15px;        
         
     }
+
+    .Movie-details-box {
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        small {
+            line-height: 30px;
+        }
+    }
+
 
     .actors {
         /* background-color: aliceblue; */
