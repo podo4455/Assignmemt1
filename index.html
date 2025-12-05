@@ -7,5 +7,236 @@
 </head>
 <body>
     
+    <nav>
+        <div class="IMDB-box">IMDb</div>
+        <div>Menu</div>
+        <div class="search-box">
+            <input type="search">
+        </div>
+        <div class="IMDB-right-box">
+            IMDb<span>pro</span>
+        </div>
+        <div id="swap-page">
+            <ul>
+                <li><a href="#">Watchlist</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">EN</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="main-container">
+        <div class="head-text">
+            <h1>Featured today ></h1>
+        </div>
+        <div class="main-box">
+            <div class="Movie-list-box">
+                <div class="Movie-slot">
+                    <div class="img">
+                        <a href="movie.html"><img src="/img/posterFreddy.jpg" alt="poster"></a>
+                    </div>
+                    <div class="star">
+                        <small>⭐ 7.7</small>
+                    </div>
+                    <a href="movie.html" class="name">Five Nights at Freddy's 2</a>
+                    <div class="interact-button">
+                        <div class="Wathlist">
+                            <small>╋ Watchlist</small>
+                        </div>
+                        <div>
+                            <small>▶︎ Trailer</small>
+                            <small>ⓘ</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Movie-slot">
+                    <div class="img">
+                        <a href="movie.html"><img src="/img/posterFreddy.jpg" alt="poster"></a>
+                    </div>
+                    <div class="star">
+                        <small>⭐ 7.7</small>
+                    </div>
+                    <a href="movie.html" class="name">Five Nights at Freddy's 2</a>
+                    <div class="interact-button">
+                        <div class="Wathlist">
+                            <small>╋ Watchlist</small>
+                        </div>
+                        <div>
+                            <small>▶︎ Trailer</small>
+                            <small>ⓘ</small>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="Movie-slot">
+                    <div class="img">
+                        <a href="movie.html"><img src="/img/posterFreddy.jpg" alt="poster"></a>
+                    </div>
+                    <div class="star">
+                        <small>⭐ 7.7</small>
+                    </div>
+                    <a href="movie.html" class="name">Five Nights at Freddy's 2</a>
+                    <div class="interact-button">
+                        <div class="Wathlist">
+                            <small>╋ Watchlist</small>
+                        </div>
+                        <div>
+                            <small>▶︎ Trailer</small>
+                            <small>ⓘ</small>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="Movie-slot">
+                    <div class="img">
+                        <a href="movie.html"><img src="/img/posterFreddy.jpg" alt="poster"></a>
+                    </div>
+                    <div class="star">
+                        <small>⭐ 7.7</small>
+                    </div>
+                    <a href="movie.html" class="name">Five Nights at Freddy's 2</a>
+                    <div class="interact-button">
+                        <div class="Wathlist">
+                            <small>╋ Watchlist</small>
+                        </div>
+                        <div>
+                            <small>▶︎ Trailer</small>
+                            <small>ⓘ</small>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="Movie-slot">
+                    <div class="img">
+                        <a href="movie.html"><img src="/img/posterFreddy.jpg" alt="poster"></a>
+                    </div>
+                    <div class="star">
+                        <small>⭐ 7.7</small>
+                    </div>
+                    <a href="movie.html" class="name">Five Nights at Freddy's 2</a>
+                    <div class="interact-button">
+                        <div class="Wathlist">
+                            <small>╋ Watchlist</small>
+                        </div>
+                        <div>
+                            <small>▶︎ Trailer</small>
+                            <small>ⓘ</small>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
 </body>
 </html>
+
+
+
+<style>
+
+    body {
+        margin: 0;
+    }
+
+    nav {
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+
+
+        .IMDB-box {
+            margin-left: 120px;
+            padding: 8px 10px;
+            color: black;
+            background-color: rgb(255, 196, 0);
+            border-radius: 5px;
+            
+        }
+
+        .IMDB-right-box {
+            span {
+                color: rgb(0, 187, 255);
+            }
+        }
+
+        input[type="search"] {
+            border-radius: 5px;
+            width: 600px;
+            padding: 5px 50px;
+        }
+
+        #swap-page ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+
+            li {
+                margin: 0 10px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        
+        }
+
+    }
+
+
+    /* main-container */
+
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+
+    }
+    
+    .head-text h1 {
+        border-left : rgb(255, 196, 0) 5px solid;
+    
+    }
+
+    .Movie-list-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Movie-slot {
+        background-color: black;
+
+        color: white;
+
+        padding: 0;
+        margin: 10px;
+
+    }
+
+
+
+    .img {
+        a img {
+            height: 300px;
+            width: 200px;
+        }
+    }
+
+</style>
