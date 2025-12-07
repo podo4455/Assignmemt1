@@ -8,13 +8,13 @@
 <body>
     
     <nav>
-        <div class="IMDB-box">IMDb</div>
-        <div>Menu</div>
+        <div class="IMDB-box"><a href="#">IMDb</a></div>
+        <div class="Menu"><a href=""><img src="menu-bar" alt="">Menu</a></div>
         <div class="search-box">
             <input type="search">
         </div>
         <div class="IMDB-right-box">
-            IMDb<span>pro</span>
+            <a href="">IMDb<span>pro</span></a>
         </div>
         <div id="swap-page">
             <ul>
@@ -146,7 +146,7 @@
     </div>
 
 
-
+    <video src=""></video>
 
 
 </body>
@@ -181,15 +181,34 @@
 
 
         .IMDB-box {
-            margin-left: 120px;
+            margin-left: 30px;
             padding: 8px 10px;
             color: black;
             background-color: rgb(255, 196, 0);
             border-radius: 5px;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
             
         }
 
+        .Menu {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
         .IMDB-right-box {
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+
             span {
                 color: rgb(0, 187, 255);
             }
@@ -228,13 +247,16 @@
         display: flex;
         flex-direction: column;
         align-items: center; 
+    }
 
-
-
+    .head-text {
+        width: 1280px;
+        display: flex;
+        justify-content: start;
+        margin-left: 30px;
     }
 
 
-    
     .head-text h1 {
 
         border-left : rgb(255, 196, 0) 5px solid;

@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: rgba(69, 2, 131, 0.901);
+    background: linear-gradient(135deg, #2b0131, #700980);
     margin: 0;
 }
 
@@ -24,15 +24,34 @@ nav {
 
 
     .IMDB-box {
-        margin-left: 120px;
+        margin-left: 30px;
         padding: 8px 10px;
         color: black;
         background-color: rgb(255, 196, 0);
         border-radius: 5px;
-        
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+
+    .Menu {
+        a {
+            text-decoration: none;
+            color: white;
+        }
     }
 
     .IMDB-right-box {
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+
         span {
             color: rgb(0, 187, 255);
         }
