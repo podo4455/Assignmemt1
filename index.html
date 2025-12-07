@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMDb: Ratings, Reviews, and  Where to Watch The Best Movies & TV Shows</title>
@@ -8,20 +10,22 @@
 <body>
     
     <nav>
-        <div class="IMDB-box"><a href="#">IMDb</a></div>
-        <div class="Menu"><a href=""><img src="menu-bar" alt="">Menu</a></div>
-        <div class="search-box">
-            <input type="search">
-        </div>
-        <div class="IMDB-right-box">
-            <a href="">IMDb<span>pro</span></a>
-        </div>
-        <div id="swap-page">
-            <ul>
-                <li><a href="#">Watchlist</a></li>
-                <li><a href="#">Sign in</a></li>
-                <li><a href="#">EN</a></li>
-            </ul>
+        <div class="nav-box">
+            <div class="IMDB-box"><a href="#">IMDb</a></div>
+            <div class="Menu"><a href=""><img src="menu-bar" alt="">Menu</a></div>
+            <div class="search-box">
+                <input type="search">
+            </div>
+            <div class="IMDB-right-box">
+                <a href="">IMDb<span>pro</span></a>
+            </div>
+            <div id="swap-page">
+                <ul>
+                    <li><a href="#">Watchlist</a></li>
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="#">EN</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -187,11 +191,15 @@
     }
 
     nav {
-    margin: 0;
+        background-color: black;
+    }
+
+    .nav-box {
+    margin: 0 100px;
     padding: 0; 
     height: 55px;
     display: flex;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     justify-content: space-between;
     align-items: center;
